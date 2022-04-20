@@ -24,8 +24,6 @@ list-style-type: none;
     font-size:15px;
 }
 .navbar {
-    margin: 20px 20px 20px 10px;
-    padding: 0px 20px 40px 10px;
     display: flex;
 }
 .navbar div{
@@ -33,14 +31,37 @@ list-style-type: none;
 }
 .flex-container{
     display: flex;
-    padding: 0px 20px 20px 20px;
 }
 .flex-container div {
     height: 300px;
      flex: 1; 
   }
   .flex-container button {
-      background-color: blueviolet;
+      background-color: rgb(38, 71, 219);
       border: none;
+      height: 40px;
+      width: 80px;
+  }
+  .flex-container button:hover{
+    background-color: rgb(207, 130, 13);
+    height: 42px;
+    width: 84px;
+    font-weight: bold;
+  }
+  .flex-container button a{
+      text-decoration: none;
+      color: white;
+      font-size: 18px;   
+  }
 
+  .randomInfowhole {
+        padding-top: 20px;
+  }
+  .randomInfo{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+ 
+  }
+  .randomInfo div{
+    flex: 1;
   }
